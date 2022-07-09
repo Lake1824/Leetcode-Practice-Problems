@@ -1,3 +1,4 @@
+class Solution {
 public int[] twoSum(int[] nums, int target) {
         boolean condition = false;
         int[] indices = new int[2];
@@ -12,3 +13,4 @@ public int[] twoSum(int[] nums, int target) {
         }
         return indices;
     }
+}
