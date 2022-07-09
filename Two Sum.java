@@ -1,5 +1,5 @@
 class Solution {
-public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         boolean condition = false;
         int[] indices = new int[2];
         for(int i = 0; i < nums.length && !condition; i++){
